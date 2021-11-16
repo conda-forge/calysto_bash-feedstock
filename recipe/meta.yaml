@@ -10,7 +10,7 @@ source:
   sha256: 4e3869f7c86a534085deb88bc6af6f41d1b5e105638f8958398a62029996510f
 
 build:
-  number: 0
+  number: 1
   script:
     - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
     - {{ PYTHON }} -m calysto_bash install --sys-prefix
