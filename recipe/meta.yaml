@@ -36,6 +36,7 @@ test:
   imports:
     - calysto_bash
   commands:
+    - jupyter kernelspec list --json
     - jupyter kernelspec list | grep calysto_bash
     - jupyter run --kernel=calysto_bash command.sh
   files:
