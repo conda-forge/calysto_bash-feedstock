@@ -21,6 +21,7 @@ requirements:
     - python
     - ipykernel
     - metakernel
+    - setuptools
   run:
     - python
     - ipykernel
