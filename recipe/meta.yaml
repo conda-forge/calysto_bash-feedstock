@@ -29,12 +29,8 @@ requirements:
     - ipyparallel
     - jupyter_client
     - metakernel
-    - bash  # [unix]
-    - m2-bash  # [win]
 
 test:
-  requires:
-    - m2w64-grep  # [win]
   imports:
     - calysto_bash
   commands:
