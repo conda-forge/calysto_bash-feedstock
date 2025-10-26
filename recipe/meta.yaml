@@ -24,7 +24,7 @@ requirements:
     - metakernel
     - setuptools
   run:
-    - python
+    - python >=3.10
     - ipykernel
     - ipyparallel
     - jupyter_client
